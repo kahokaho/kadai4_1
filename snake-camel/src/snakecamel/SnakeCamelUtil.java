@@ -24,7 +24,7 @@ public class SnakeCamelUtil {
 					sb.append("_");
 				}
 				sb.append(Character.toLowerCase(c));
-				j = i;
+				j = i+1;
 			}
 		}
 		sb.append(camelcase.substring(j));
